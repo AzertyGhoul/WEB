@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav>
+            <button class="main" onclick="showDiv('info-student')">Main</button>
+            <button onclick="showDiv('table-1')">Table 1</button>
+            <button onclick="showDiv('table-2')">Table 2</button>
+            <button onclick="showDiv('form-1')">Form 1</button>
+            <button onclick="showDiv('form-2')">Form 2</button>
+            <button onclick="showDiv('css')">CSS</button>
+        </nav>
+        <div id="info-student">
+            <img src="fight_club.jpg" alt="" class="photo" />
+            <p class="info">
+                <a href="">Нижневартовский Государственный университет</a>
+                (НВГУ) - это университет, расположенный в городе Нижневартовске.
+                Университет предлагает различные образовательные программы в
+                различных областях знаний. Он активно сотрудничает с другими
+                учебными заведениями и научными организациями.
+            </p>
+            <p class="info">
+                Моим хобби является чтение манги и просмотр аниме, манга - это
+                японские комиксы, Они сопровождаются иллюстрациями, которые
+                помогают визуализировать сюжет. Аниме, в свою очередь, это
+                анимационные сериалы и фильмы, которые зачастую основаны на
+                манге, но иногда могут быть оригинальной историей.
+            </p>
+            <p class="info">
+                Моя будущяя профессия програмиист(наверное), если я буду
+                программистом то, у меня открываются многообещающие перспективы.
+                Программисты играют важную роль в современном мире, разрабатывая
+                и поддерживая программное обеспечение, создавая веб-сайты и
+                приложения.
+            </p>
+            <p class="info">
+                Моя группа 3102 активно участвует в проектах и мероприятиях,
+                связанных с инновациями. Мы вместе исследуем новейшие
+                технологии, изучаем их влияние на общество и ищем способы
+                применения инноваций для решения реальных проблем.
+            </p>
+            <p class="info quote">
+                Если посмотреть объективно, то, если я умру, мир продолжит
+                вращаться так, словно ничего не произошло.
+            </p>
+        </div>
+        <div id="table-1" class="hidden">
+            <table class="table">
+                <tr>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td rowspan="3"></td>
+                    <td></td>
+                    <td rowspan="3"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3"></td>
+                    <td rowspan="3"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="table-2" class="hidden">
+            <table class="table" style="width: 400px; height: 400px">
+                <tr>
+                    <td colspan="8" style="background-color: #00cca4"></td>
+                </tr>
+                <tr>
+                    <td rowspan="6" style="background-color: #cccca2"></td>
+                    <td colspan="6" style="background-color: #00cca4"></td>
+                    <td rowspan="6" style="background-color: #cccca2"></td>
+                </tr>
+                <tr>
+                    <td rowspan="4" style="background-color: #cccca2"></td>
+                    <td colspan="4" style="background-color: #00cca4"></td>
+                    <td rowspan="4" style="background-color: #cccca2"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="background-color: #cccca2"></td>
+                    <td style="background-color: #cb0000"></td>
+                    <td style="background-color: #0000cb"></td>
+                    <td rowspan="2" style="background-color: #cccca2"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: #01cb01"></td>
+                    <td style="background-color: #cccc00"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="background-color: #00cca4"></td>
+                </tr>
+                <tr>
+                    <td colspan="6" style="background-color: #00cca4"></td>
+                </tr>
+                <tr>
+                    <td colspan="8" style="background-color: #00cca4"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="form-1" class="hidden">
+            <div class="form-1-childs">
+                <div>
+                    <label for="secondName">Фамилия</label>
+                    <input type="text" name="secondName" />
+                </div>
+                <div>
+                    <label for="initial">Инициалы</label>
+                    <input type="text" name="initial" />
+                </div>
+                <div>
+                    <label for="password">Пароль</label>
+                    <input type="password" name="password" />
+                </div>
+                <div>
+                    <label for="addres">Адрес получателя</label>
+                    <input type="text" name="addres" />
+                </div>
+                <div>
+                    <label for="count">Количество</label>
+                    <input type="number" name="count" />
+                </div>
+                <div>
+                    Тип
+                    <select name="" id="">
+                        <option value="">Куриные</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Отборные</option>
+                    </select>
+                </div>
+                <div>
+                    Доставка
+                    <div>
+                        <label for="pochta">Почтой</label>
+                        <input type="radio" name="radio" id="pochta" />
+                    </div>
+                    <div>
+                        <label for="electronno">Электронно</label>
+                        <input type="radio" name="radio" id="electronno" />
+                    </div>
+                    <div>
+                        <label for="curerom">Курьером</label>
+                        <input type="radio" name="radio" id="curerom" />
+                    </div>
+                </div>
+                <div>
+                    <label for="checkbox">Требуется накладная</label>
+                    <input type="checkbox" name="checkbox" />
+                </div>
+                <div>
+                    <label for="textarea">Дополнительная информация</label>
+                    <textarea
+                        name="textarea"
+                        id=""
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="order" value="Заказать" />
+                    <input type="submit" name="decline" value="Отменить" />
+                </div>
+            </div>
+        </div>
+        <div id="form-2" class="hidden">
+            <div class="form-2-childs">
+                <div>
+                    <label for="login">Логин:</label>
+                    <input type="text" name="login" />
+                </div>
+                <div>
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password" />
+                </div>
+                <div>
+                    <label for="url">URL-адрес сайта:</label>
+                    <input type="url" name="url" />
+                </div>
+                <div>
+                    <label for="textarea">Описание сайта:</label>
+                    <textarea
+                        name="textarea"
+                        id=""
+                        cols="30"
+                        rows="10"
+                        style="resize: none"
+                    ></textarea>
+                </div>
+                <div>
+                    <label for="select">Тема сайта:</label>
+                    <select name="select" id="">
+                        <option value="">Тема не выбрана</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="file">Баннер 88x31:</label>
+                    <input type="file" name="file" />
+                </div>
+                <div>
+                    <div>
+                        <input type="reset" value="Очистить" />
+                        <input type="submit" value="Отправить" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="css" class="hidden">
+            <div id="css-info">
+                <h1
+                    style="
+                        color: #0000ff;
+                        font-size: 20px;
+                        letter-spacing: 20px;
+                        align-self: center;
+                    "
+                >
+                    Таблицы в HTML
+                </h1>
+                <p
+                    style="
+                        background-color: #00ffff;
+                        color: black;
+                        text-indent: 2rem;
+                    "
+                >
+                    Одним из наиболее мощных и широко применяемых в
+                    <strong>HTML</strong> средств являются
+                    <i style="font-size: 20px">таблицы</i>.
+                </p>
+                <p style="text-align: right">
+                    <span
+                        style="
+                            background-color: #ffff00;
+                            text-decoration: underline;
+                            color: black;
+                        "
+                    >
+                        Понятие табличного представления данных не нуждается в
+                        дополнтиельном пояснении.
+                    </span>
+                    <span style="background-color: #c0c0c0; color: black">
+                        В HTML таблицы используются не только в традиционно, как
+                        метод представления данных, но и как средство
+                        форматирования Web-страниц.
+                    </span>
+                </p>
+                <h2 style="text-align: left; color: #800080">
+                    Создание простейших HTML-таблиц
+                </h2>
+                <p>
+                    <i
+                        style="
+                            font-size: 20px;
+                            font-weight: 900;
+                            background-color: #ff00ff;
+                            color: black;
+                        "
+                        >Описание</i
+                    >
+                    <i
+                        style="
+                            font-size: larger;
+                            font-weight: 600;
+                            text-decoration: underline;
+                        "
+                        >таблиц</i
+                    >
+                    <u style="font-weight: 600">должно</u> распологаться внутри
+                    раздела документа &lt;BODY&gt;.
+                </p>
+                <p style="text-align: center">
+                    Каждая
+                    <u style="color: #2020ff; text-decoration: underline"
+                        >таблица</u
+                    >
+                    должна
+                    <span style="font-size: 23px">начинаться</span> тэгом
+                    &lt;TABLE&gt; и завершаться тэгом &lt;/TABLE&gt.;
+                </p>
+                <p style="text-align: center">
+                    <span style="background-color: #c0c0c0; color: black">
+                        <b>Каждая</b> строка начинается &lt;TR&gt; (Table Row) и
+                        завершается тэгом &lt;/TR&gt;.
+                        <b style="font-style: italic; color: red">Отдельная</b>
+                        ячейка в строке обрамляется парой тэгов &lt;TD&gt; и
+                        &lt;/TD&gt; (Table Data) или &lt;TH&gt; и &lt;/TH&gt;
+                        (Table Header)
+                    </span>
+                </p>
+                <p style="text-align: right; font-weight: bold">Таблица 1</p>
+                <p
+                    style="
+                        text-align: center;
+                        font-family: fantasy;
+                        text-decoration: line-through;
+                        color: #0b0bff;
+                    "
+                >
+                    Математические выражения
+                </p>
+                <table style="font-weight: 700">
+                    <tr>
+                        <td ">Поле 1</td>
+                        <td
+                            style="
+                                text-align: center;
+                                background-color: white;
+                                color: black;
+                            "
+                        >
+                            Поле 2
+                        </td>
+                        <td
+                            style="
+                                text-align: right;
+                                background-color: #00ffff;
+                                color: #0000ff;
+                            "
+                        >
+                            Поле 3
+                        </td>
+                        <td
+                            style="
+                                background-color: #ff99cc;
+                                text-decoration: underline;
+                                font-style: italic;
+                                color: black;
+                            "
+                        >
+                            Поле 4
+                        </td>
+                        <td
+                            style="
+                                text-align: center;
+                                background-color: #ffff00;
+                                color: black;
+                                letter-spacing: 5px;
+                            "
+                        >
+                            Поле5
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #0000ff">
+                            (a+b)
+                            <sup>2</sup>
+                        </td>
+                        <td style="text-align: center">
+                            a<sup>2</sup>-b<sup>2</sup>
+                        </td>
+                        <td style="text-align: right; color: #0000ff">
+                            (a-b)
+                            <sup>3</sup>
+                        </td>
+                        <td>
+                            A<sub>1</sub>+A<sub>2</sub>+<sub>...</sub>A<sub
+                                >i</sub
+                            >
+                        </td>
+                        <td style="text-align: center; color: #0000ff">
+                            y=x<sup>2</sup>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <p>Некрасов Алексей | example@gmail.com</p>
+        </footer>
+        <script>
+            function showDiv(divId) {
+                // Скрыть все дивы
+                document.getElementById("info-student").classList.add("hidden");
+                document.getElementById("table-1").classList.add("hidden");
+                document.getElementById("table-2").classList.add("hidden");
+                document.getElementById("form-1").classList.add("hidden");
+                document.getElementById("form-2").classList.add("hidden");
+                document.getElementById("css").classList.add("hidden");
+
+                // Показать только выбранный див
+                var selectedDiv = document.getElementById(divId);
+                console.log(selectedDiv);
+                selectedDiv.classList.remove("hidden");
+            }
+        </script>
+    </body>
+</html>
